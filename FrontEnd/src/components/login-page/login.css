@@ -1,0 +1,90 @@
+*{
+    background-color:#262626 ;
+}
+h1{
+    font-size:4rem;
+    color: #FDBE00;
+    color: linear-gradient(90deg, rgba(253, 190, 0, 1) 10%, rgba(151, 113, 0, 1) 100%);
+}
+#Login-title{
+    font-size: 2.5rem;
+    color: #FDBE00;
+    color: linear-gradient(90deg, rgba(253, 190, 0, 1) 10%, rgba(151, 113, 0, 1) 100%);
+}
+body{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#Login-box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+#Login-box{
+    height:90%;
+    width: 40%;
+    /* border: solid 1px white; */
+    display: flex;
+    flex-direction: column;
+}
+#text-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    margin-top: 15%;
+}
+
+input{
+    width: 90%;
+    margin-bottom:10%;
+    height: 20%;
+    border-radius: 15px;
+    border:solid 1px transparent;
+    background-color:#3B3B3B ;
+    padding-left:10px;
+    font-size: 1em;
+    color: #626262;
+}
+#login-enter-button-section{
+    height: 10%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#login-enter-button{
+    height: 60%;
+    width: 45%;
+    border-radius: 15px;
+    background-color: #FDBE00;
+    border:solid 1px transparent;
+    color:#3B3B3B;
+    font-size: 1.75em;
+    font-weight: 800;
+}
+#create-account-section{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10%;
+}
+#create-account-button{
+    height: 80%;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #FDBE00;
+    border:solid 1px transparent;
+    color:#3B3B3B;
+    font-size: 1.75em;
+    font-weight: 800;
+}
+#first-time{
+    font-size:2rem;
+}
